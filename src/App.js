@@ -4,6 +4,7 @@ import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import About from './Pages/AboutPage'
 import FlowerPage from './Pages/FlowerPage'
+import LoginPage from './Pages/LoginPage'
 import i18n from './i18n'
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path='/Contact' Component={Contact} />
         <Route path='/AboutPage' Component={About} />
         <Route path='/FlowerPage' Component={FlowerPage} />
+        <Route path='/Login' Component={LoginPage} />
       </Routes>
     </Router>
     
