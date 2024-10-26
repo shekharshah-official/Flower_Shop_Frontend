@@ -5,7 +5,7 @@ const TempHomePage = () => {
     <div>
         <h3>we are working on it </h3>
         link for temp project
-        <a href='www.shekharshah.tech/contact'>go</a>
+        <a href='/contact'>go</a>
     </div>
   )
 }
