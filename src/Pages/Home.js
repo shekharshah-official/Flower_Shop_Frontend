@@ -8,11 +8,7 @@ const Home = () => {
   return (
     <div>
         <Navbar />
-      <Carousel />
-      <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <ProductGrid />
-      </div>
-      <Footer />
+      
       
     </div>
   )
