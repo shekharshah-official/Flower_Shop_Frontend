@@ -8,8 +8,10 @@ import TempHomePage from './TempHomePage'
 const Home = () => {
   return (
     <div>
-        <TempHomePage />
-      
+    <Navbar />
+    <Carousel />
+    <ProductGrid />
+    <Footer />  
       
     </div>
   )
